@@ -107,4 +107,5 @@ int					ft_isnum(char *num);
 intmax_t			ft_atomax(const char *nptr);
 int					ft_sqrt(size_t num);
 void				ft_lstsort(t_list *s, int (*f)(void *, void *, int), int r);
+void				*ft_realloc(void *alloc, size_t src_size, size_t size);
 #endif
